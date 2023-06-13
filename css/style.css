@@ -1,0 +1,269 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Imagens*/
+
+html{
+    background-image: url('bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-color:  #6c4cb6;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    html{
+        background-image: url('bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color:  #6c4cb6;
+        font-family: 'Poppins', sans-serif;
+    } 
+}
+
+
+#logo{
+    width: 10%;
+    display: block;
+    position: absolute;
+    margin: 3%;
+    padding-left: 7%;
+}
+
+@media(min-width: 375px) and (max-width: 1400px){
+    #logo{
+        width: 10%;
+        display: block;
+        position: absolute;
+        margin: 3%;
+        padding-left: 5%;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    #logo{
+        width: 35%;
+        display: block;
+        position: absolute;
+        top: 1.2rem;
+        
+    }
+}
+
+#mockup{
+    width: 80%;
+}
+
+@media(min-width: 375px) and (max-width: 1400px){
+    #mockup{
+        width: 50%;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    #mockup{
+        width: 85%;
+        position: relative;
+        left: 5%;
+    }
+}
+
+
+/*Container*/
+
+.container{
+    display: flex;
+    position: relative;
+    padding-top: 10%;
+    left: 5%;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+@media(min-width: 375px) and (max-width: 1400px){
+    .container{
+        display: flex;
+        position: relative;
+        padding-top: 8%;
+        left: 2%;
+        max-width: 90%;
+        margin: 0 auto;
+    
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    .container{
+        display: block;
+        position: relative;
+        padding-top: 30%;
+        margin: 0 auto;
+        
+    
+    }
+}
+    
+/*Textos*/
+
+h1{
+    font-size: 2.8rem;
+    color: #fff;
+    padding-bottom: 2rem;
+    line-height: 1.4;
+    max-width: 60%;
+}
+
+@media(min-width: 375px) and (max-width: 1400px){
+    h1{
+        font-size: 2.5rem;
+        color: #fff;
+        padding-bottom: 1rem;
+        line-height: 1.4;
+        max-width: 80%;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    h1{
+
+        font-size: 1.7rem;
+        color: #fff;
+        padding-bottom: 2rem;
+        padding-top: 2.5rem;
+        line-height: 1.4;
+        position: relative;
+        text-align: center;
+    } 
+}
+
+p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 1rem; 
+    max-width: 65%;
+    
+}
+
+@media(min-width: 375px) and (max-width: 1400px){
+    p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #fff;
+        padding-bottom: 1rem; 
+        max-width: 80%;
+        
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-bottom: 1rem;
+        text-align: center;
+        position: relative;
+        max-width: 85%;
+    }
+}
+
+
+/*Button*/
+
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+h1,p,button{
+    position: relative;
+    top: 15%;
+    display: block;
+    left: 6%;
+}
+
+@media(min-width: 375px) and (max-width: 1400px){
+    h1,p,button{
+    position: relative;
+    top: 6%;
+    display: block;
+    left: 6%;
+    }
+}
+
+button{
+    padding: 1rem;
+    width: 35%;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6c4cb6;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px hsl(257, 54%, 45%);
+    position: relative;
+    top: 1.3rem;
+    left: -1%;
+    
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    button{
+        padding: 1rem;
+        width: 70%;
+        border-radius: 35px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #6c4cb6;
+        cursor: pointer;
+        box-shadow: 2px 2px 10px hsl(257, 54%, 45%);
+        position: relative;
+        top: 1.3rem;
+        left: -1%;
+        margin: 0 auto;
+        
+    }
+}
+
+
+/*Footer*/
+
+#icon{
+    display: block;
+    margin: 8% 90% 0;
+    left: 40%;
+    cursor: pointer;
+    width: 35px;
+}
+
+
+@media(min-width: 375px) and (max-width: 1400px){
+    #icon{
+        display: block;
+        margin: 3% 90% 0;
+        left: 40%;
+        cursor: pointer;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 820px){
+    #icon{
+        display: block;
+        margin:  0 auto;
+        padding-top: 3rem;
+        left: 40%;
+        cursor: pointer;
+        width: 35px;
+    }
+}
